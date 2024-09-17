@@ -1,0 +1,84 @@
+/* General styling */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+#filter-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0; /* add padding on the top and bottom */
+  background-color: #e0f2f7; /* Slightly lighter blue */
+}
+
+#good-dog-filter {
+  margin: 0 20px; /* Added left and right margins */
+  padding: 10px 20px; /* Added some padding inside button*/
+  font-size: 1.1em;
+  border: none;
+  border-radius: 2em;
+  background-color: #4caf50;
+  color: white; /* Make text white to stand out on the green button*/
+  cursor: pointer;
+}
+
+#dog-bar {
+  height: 12vh;
+  background-color: #e0f2f7; /* Slightly lighter blue */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#dog-bar span {
+  height: 75%; /* Reduced slightly*/
+  padding: 5px;
+  width: 9vw; /* Increase button sizes for more comfortable interaction*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5em;
+  border: 1px solid #007bff;
+  cursor: pointer;
+}
+
+#dog-summary-container {
+  flex-grow: 1; /* Make this section take up the rest of the page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Improve the look of dog cards */
+#dog-info {
+  width: 100%;
+  padding: 20px; /* Add space to the card*/
+}
+
+#dog-info img {
+  max-width: 80%;
+  max-height: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px; /* add space under images */
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+#dog-info h2 {
+  font-size: 1.5em; /* Increase font size*/
+}
+
+/* Other styling (optional - for example) */
+
+/* Use this as the basis for customizing appearance as you need */
+.dog-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+}
